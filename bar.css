@@ -49,11 +49,13 @@ font-family: 'Varela Round', sans-serif;
     top: 30px;
 }
 .sidebar-menu .menu-list{
+    /* background-color: aquamarine; */
     position: absolute;
     width: 100%;
-    top: 130px;
+    top: 150px;
 }
 .sidebar-menu .menu-list li{
+    /* background-color: blue; */
     margin-top: 10px;
     padding: 10px 20px;
     text-align: center;
@@ -66,6 +68,11 @@ font-family: 'Varela Round', sans-serif;
 }
 .sidebar-menu .menu-list li i{
     padding-right: 8px;
+}
+.sidebar-menu .menu-list li:hover{
+    /* width: 100%; */
+    box-shadow: 0 0 4px rgba(255,255,255,0.9);
+    /* transform: scale(1.1); */
 }
 #btn-one span{
     color: aliceblue;
@@ -112,11 +119,6 @@ font-family: 'Varela Round', sans-serif;
 
 #tick{
     display: none;
-}
-
-.sidebar-menu .menu-list li:hover{
-    box-shadow: 0 0 4px rgba(255,255,255,0.5);
-    transform: scale(1.1);
 }
 
 #tick:checked ~ .sidebar-menu{
